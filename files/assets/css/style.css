@@ -600,6 +600,9 @@ h6 {
 img{
     height: 200px;
     width: 200px;
+    margin-bottom: -73px;
+    padding-bottom: 65px;
+    padding-right: 2px;
 }
 .site-header__header-one-wrap {
     position: relative;
