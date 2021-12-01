@@ -598,10 +598,10 @@ h6 {
 # Topbar
 --------------------------------------------------------------*/
 img{
-    height: 200px;
-    width: 200px;
-    margin-bottom: -73px;
-    padding-bottom: 65px;
+    height: 310px;
+    width: 251px;
+    margin-bottom: -86px;
+    padding-bottom: 86px;
     padding-right: 2px;
 }
 .site-header__header-one-wrap {
@@ -2872,6 +2872,7 @@ img{
     position: relative;
     display: block;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 .service_1_single .content {
     padding: 44px 50px 62px;
@@ -9998,3 +9999,6 @@ img{
     color: #fff
 }
 /* End Element Counter */
+.service_1_single wow fadeInUp{
+    margin-bottom: 10px;
+}
