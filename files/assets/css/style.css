@@ -597,13 +597,22 @@ h6 {
 /*--------------------------------------------------------------
 # Topbar
 --------------------------------------------------------------*/
+/* #demo{
+    height: 232px !important;
+    width: 221px !important;
+    margin-bottom: -109px !important;
+    padding-bottom: 100px !important;
+    padding-right: 2px !important;
+    margin-top: -12px !important;
+} */
 img{
-    height: 310px;
-    width: 251px;
-    margin-bottom: -86px;
-    padding-bottom: 86px;
+    height: 296px;
+    width: 201px;
+    margin-bottom: -175px;
+    padding-bottom: 152px;
     padding-right: 2px;
 }
+
 .site-header__header-one-wrap {
     position: relative;
     display: block;
@@ -2957,7 +2966,7 @@ img{
 }
 
 .single_brand_item img {
-    opacity: 0.3;
+    /* opacity: 0.3; */
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
@@ -9769,16 +9778,16 @@ img{
     top: -20px;
     left: 0;
     z-index: 2;
-    -webkit-animation: planeMove 5s ease-in infinite;
-    animation: planeMove 5s ease-in infinite;
+    /* -webkit-animation: planeMove 5s ease-in infinite; */
+    /* animation: planeMove 5s ease-in infinite; */
 }
 .banner-section.banner-five .round_2 {
     position: absolute;
     left: 5%;
     bottom: 10px;
     z-index: 2;
-    -webkit-animation: planeMove 5s ease-in infinite;
-    animation: planeMove 5s ease-in infinite;
+    /* -webkit-animation: planeMove 5s ease-in infinite; */
+    /* animation: planeMove 5s ease-in infinite; */
 }
 .banner-section.banner-five .certified_logo {
     position: absolute;
@@ -10001,4 +10010,19 @@ img{
 /* End Element Counter */
 .service_1_single wow fadeInUp{
     margin-bottom: 10px;
+}
+.fa-arrow-left{
+    color: var(--thm-black);
+    font-size: 15px;
+    line-height: 50px;
+    transform: rotate(180deg);
+    position: absolute;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background: var(--thm-base);
+    border-radius: 50%;
+    text-align: center;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
 }
