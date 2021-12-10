@@ -42,6 +42,7 @@ font-family: 'Amatic SC', cursive;*/
 :root {
     --thm-font: "Barlow", sans-serif;
     --heading-font: "Amatic SC", cursive;
+    /* --heading-font: 'Kaushan Script', cursive; */
     --thm-base: #eddd5e;
     --thm-base-rgb: 237, 221, 94;
     --thm-primary: #5b8c51;
@@ -793,7 +794,7 @@ img{
 .main-nav__main-navigation .main-nav__navigation-box > li > a {
     position: relative;
     display: inline-block;
-    padding: 0px 18px;
+    padding: 0px 26px;
     border-radius: 5px;
     color: #878986;
     font-size: 16px;
@@ -5939,7 +5940,7 @@ img{
 .testimonials-three__carousel .owl-item.active {
     opacity: 1;
     visibility: visible;
-}
+} 
 .testimonials-three__single {
     margin-bottom: 40px;
     text-align: center;
